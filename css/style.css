@@ -418,6 +418,47 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+/* Entertainment */
+#entertainment {
+	padding: 80px 0;
+}
+#entertainment .overlay {
+	background-image: url('https://previews.123rf.com/images/tzido/tzido1609/tzido160900093/63101677-microphone-over-the-abstract-blurred-photo-of-music-studio-recording-room-background-musical-concept.jpg');
+}
+#entertainment .overlay h2 {
+	color: #fff;
+	font-weight: 600;
+}
+#entertainment .overlay p {
+	color: #fff;
+	font-weight: 400;
+}
+#entertainment .container .row .live-music {
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
+#entertainment .container .row .live-music h2.title {
+	font-size: 3.5rem;
+}
+#entertainment .container .row .live-music-pic {
+	width: 100%;
+}
+#entertainment .container .row .open-mic {
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
+#entertainment .container .row .art-classes {
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
+#entertainment .container .row .artist-month {
+	width: 100%;
+	text-align: center;
+	padding-top: 130px;
+}
 /* Team Section */
 #team {
 	color: #fff;

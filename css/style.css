@@ -268,6 +268,14 @@ header .intro-text {
 #restaurant-menu .menu-section {
 	margin: 0 20px 80px;
 }
+#restaurant-menu .menu-section .meal-container {
+	margin: 24px 0;
+}
+#restaurant-menu .menu-section .meal-container span.meal-extras {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
 #restaurant-menu .menu-section-title {
 	font-size: 26px;
 	display: block;
@@ -423,7 +431,8 @@ ol.type li a:hover {
 	padding: 80px 0;
 }
 #entertainment .overlay {
-	background-image: url('https://previews.123rf.com/images/tzido/tzido1609/tzido160900093/63101677-microphone-over-the-abstract-blurred-photo-of-music-studio-recording-room-background-musical-concept.jpg');
+	/* background-image: url('https://www.discoverwalks.com/blog/wp-content/uploads/2014/06/jazz-bar-paris-big.jpg'); */
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://www.discoverwalks.com/blog/wp-content/uploads/2014/06/jazz-bar-paris-big.jpg");
 }
 #entertainment .overlay h2 {
 	color: #fff;
@@ -449,6 +458,9 @@ ol.type li a:hover {
 	text-align: center;
 	padding-top: 130px;
 }
+#entertainment .container .row .open-mic-pic img {
+	margin: 5px -57px;
+}
 #entertainment .container .row .art-classes {
 	width: 100%;
 	text-align: center;
@@ -458,6 +470,9 @@ ol.type li a:hover {
 	width: 100%;
 	text-align: center;
 	padding-top: 130px;
+}
+#entertainment .container .row .artist-month img {
+	margin: 0px -19px;
 }
 /* Team Section */
 #team {
